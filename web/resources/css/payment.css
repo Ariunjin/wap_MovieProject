@@ -1,0 +1,82 @@
+*{
+    margin: auto;
+    padding: 0px;
+    font-size: 100%;
+    text-align: left;
+    font-family: "Lucida Sans",serif;
+}
+#header{
+    vertical-align: middle;
+    background-image: url('../images/bannersmall.jpg');
+}
+h1{
+    font-size: 36px;
+    color: black;
+    font-weight: bolder;
+    padding: 50px;
+    text-align: center;
+}
+body{
+    max-width: 90%;
+    margin: auto;
+}
+#login{
+    float: right;
+}
+#selection{
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: solid 1px silver;
+    vertical-align: middle;
+    background-color: lightseagreen;
+    font-weight: bold;
+}
+#container{
+    height: 500px;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+    padding-top: 25px;
+}
+#details{
+    vertical-align: middle;
+    text-align: left;
+}
+#paymentValue{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+fieldset{
+    border: 1px solid lightseagreen;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 5px;
+}
+#custinfo {
+    float: left;
+}
+input {
+    border: 2px solid silver;
+    border-radius: 2px;
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+}
+#submit{
+    text-align: center;
+}
+#confirm{
+    background-color: lightseagreen;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+}
+#cancel{
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+}
